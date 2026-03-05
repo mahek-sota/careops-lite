@@ -43,16 +43,16 @@ CareOps Lite gives supervisors a single place to monitor caregiver burnout risk 
 ![Settings](assets/settings.png)
 
 ---
-
 ## Architecture
 
 ```
-┌─────────────────┐         ┌─────────────────┐         ┌──────────────────┐
-│    BROWSER       │         │    BACKEND       │         │  EXTERNAL / DATA  │
-│  React + Vite   │◄───────►│  Node + Express  │◄───────►│  Google OAuth    │
-│  Vercel CDN     │  HTTPS  │  Render          │         │  JSON seed files │
-│  localhost:5173 │  +cookie│  localhost:4000  │         │  In-memory state │
-└─────────────────┘         └─────────────────┘         └──────────────────┘
++---------------------+        +---------------------+        +----------------------+
+|       BROWSER       |        |       BACKEND       |        |    EXTERNAL / DATA   |
+|---------------------|        |---------------------|        |----------------------|
+| React + Vite        | <----> | Node + Express      | <----> | Google OAuth         |
+| Vercel CDN          | HTTPS  | Render              |        | JSON seed files      |
+| localhost:5173      | cookie | localhost:4000      |        | In-memory state      |
++---------------------+        +---------------------+        +----------------------+
 ```
 
 - **Frontend** — React 18 + Vite, plain CSS (no UI library), custom hooks (`useAuth`, `useApi`, `useTheme`)
