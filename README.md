@@ -114,7 +114,7 @@ careops/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/careops-lite.git
+git clone https://github.com/mahek-sota/careops-lite.git
 cd careops-lite
 ```
 
@@ -128,14 +128,13 @@ npm install
 Create `backend/.env`:
 
 ```env
-PORT=4000
-SESSION_SECRET=your-random-secret-here
-
-GOOGLE_CLIENT_ID=your-google-client-id
-GOOGLE_CLIENT_SECRET=your-google-client-secret
-
-FRONTEND_URL=http://localhost:5173
-BACKEND_URL=http://localhost:4000
+| `PORT` | Port for Express server | `4000` |
+| `SESSION_SECRET` | Secret for signing session cookies | any random string |
+| `GOOGLE_CLIENT_ID` | From Google Cloud Console | `123...apps.googleusercontent.com` |
+| `GOOGLE_CLIENT_SECRET` | From Google Cloud Console | `GOCSPX-...` |
+| `GOOGLE_REDIRECT_URI` | OAuth callback URL | `http://localhost:4000/auth/google/callback` |
+| `FRONTEND_URL` | Frontend origin for CORS | `http://localhost:5173` |
+| `BACKEND_URL` | Backend origin for OAuth callback | `http://localhost:4000` |
 ```
 
 Start the backend:
