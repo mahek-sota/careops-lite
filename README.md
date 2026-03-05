@@ -1,6 +1,6 @@
 # 🏥 CareOps Lite
 
-> A supervisor console for home care operations — real-time burnout risk monitoring, workflow debugging, and configurable alert thresholds.
+> CareOps Lite is a prototype supervisor console designed to improve operational visibility in home care teams, combining workflow monitoring, burnout risk analysis, and threshold-driven alerting in a single interface.
 
 ![Stack](https://img.shields.io/badge/React-18-61dafb?style=flat-square&logo=react)
 ![Stack](https://img.shields.io/badge/Node-23-339933?style=flat-square&logo=node.js)
@@ -11,7 +11,11 @@
 
 ## Overview
 
-CareOps Lite gives supervisors a single place to monitor caregiver burnout risk and workflow health across their team. Everything — alert text, risk scores, workflow statuses — is computed dynamically from the current threshold settings, so changing a threshold immediately reflects across the whole app with no stale data.
+CareOps Lite provides supervisors with a centralized view of workflow health and caregiver workload signals across their team. The system analyzes operational data such as shift patterns and workflow events to surface issues like timeouts, skipped steps, and emerging burnout risks.
+
+Rather than storing alerts statically, the platform derives alerts, risk scores, and workflow statuses dynamically from configurable thresholds and live data. This allows operational policies to be adjusted in real time, with changes immediately reflected across alerts, dashboards, and risk indicators — eliminating stale or outdated signals.
+
+The goal of the prototype is to explore how policy-driven monitoring and clear operational feedback loops can help supervisors detect and respond to problems earlier.
 
 **Key features:**
 
