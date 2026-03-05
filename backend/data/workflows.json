@@ -1,0 +1,52 @@
+[
+    {
+      "id": "WF-1024",
+      "name": "Morning Routine",
+      "clientName": "Maria Santos",
+      "startedAt": "2026-03-04T08:00:00Z",
+      "events": [
+        { "id": "e1", "step": "Arrival Confirmation", "status": "completed", "timestamp": "2026-03-04T08:02:00Z", "duration": 2 },
+        { "id": "e2", "step": "Vital Signs Check", "status": "completed", "timestamp": "2026-03-04T08:10:00Z", "duration": 8 },
+        { "id": "e3", "step": "Medication Confirmation", "status": "timeout", "timestamp": "2026-03-04T08:12:00Z", "duration": 47 },
+        { "id": "e4", "step": "Morning Report", "status": "pending", "timestamp": "", "duration": 0 }
+      ]
+    },
+    {
+      "id": "WF-1025",
+      "name": "Wound Care",
+      "clientName": "Dorothy Williams",
+      "startedAt": "2026-03-04T09:00:00Z",
+      "completedAt": "2026-03-04T09:42:00Z",
+      "events": [
+        { "id": "e23", "step": "Arrival Confirmation", "status": "completed", "timestamp": "2026-03-04T09:01:00Z", "duration": 1 },
+        { "id": "e24", "step": "Wound Assessment", "status": "completed", "timestamp": "2026-03-04T09:12:00Z", "duration": 11 },
+        { "id": "e25", "step": "Treatment Application", "status": "completed", "timestamp": "2026-03-04T09:30:00Z", "duration": 18 },
+        { "id": "e26", "step": "Photo Documentation", "status": "completed", "timestamp": "2026-03-04T09:36:00Z", "duration": 6 },
+        { "id": "e27", "step": "Care Notes", "status": "completed", "timestamp": "2026-03-04T09:42:00Z", "duration": 6 }
+      ]
+    },
+    {
+      "id": "WF-1019",
+      "name": "Evening Check-in",
+      "clientName": "James Park",
+      "startedAt": "2026-03-03T19:00:00Z",
+      "events": [
+        { "id": "e10", "step": "Vital Signs", "status": "out-of-order", "timestamp": "2026-03-03T19:10:00Z", "duration": 8 },
+        { "id": "e11", "step": "Arrival Confirmation", "status": "completed", "timestamp": "2026-03-03T19:20:00Z", "duration": 3 },
+        { "id": "e12", "step": "Medication Check", "status": "completed", "timestamp": "2026-03-03T19:35:00Z", "duration": 10 },
+        { "id": "e13", "step": "Report", "status": "completed", "timestamp": "2026-03-03T19:45:00Z", "duration": 5 }
+      ]
+    },
+    {
+      "id": "WF-1022",
+      "name": "Medication Dispatch",
+      "clientName": "Linda Chen",
+      "startedAt": "2026-03-03T14:00:00Z",
+      "events": [
+        { "id": "e14", "step": "Arrival Confirmation", "status": "completed", "timestamp": "2026-03-03T14:05:00Z", "duration": 2 },
+        { "id": "e15", "step": "Medication Verification", "status": "skipped", "timestamp": "", "duration": 0 },
+        { "id": "e16", "step": "Medication Dispatch", "status": "completed", "timestamp": "2026-03-03T14:20:00Z", "duration": 12 },
+        { "id": "e17", "step": "Client Sign-off", "status": "completed", "timestamp": "2026-03-03T14:32:00Z", "duration": 5 }
+      ]
+    }
+  ]

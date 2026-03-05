@@ -1,0 +1,57 @@
+[
+    {
+      "id": "CG-001",
+      "name": "Sarah Johnson",
+      "weeklyHours": 58,
+      "consecutiveLongShifts": 4,
+      "minRestGapHours": 5.5,
+      "shifts": [
+        { "date": "2026-03-01", "startTime": "07:00", "endTime": "19:00", "hoursWorked": 12, "clientName": "Maria Santos" },
+        { "date": "2026-03-02", "startTime": "06:30", "endTime": "18:30", "hoursWorked": 12, "clientName": "Linda Chen" },
+        { "date": "2026-03-03", "startTime": "07:00", "endTime": "18:00", "hoursWorked": 11, "clientName": "Dorothy Williams" },
+        { "date": "2026-03-04", "startTime": "06:00", "endTime": "17:00", "hoursWorked": 11, "clientName": "Ana Martinez" }
+      ]
+    },
+    {
+      "id": "CG-002",
+      "name": "David Lee",
+      "weeklyHours": 44,
+      "consecutiveLongShifts": 2,
+      "minRestGapHours": 7.2,
+      "shifts": [
+        { "date": "2026-03-01", "startTime": "08:00", "endTime": "18:00", "hoursWorked": 10, "clientName": "Dorothy Williams" },
+        { "date": "2026-03-02", "startTime": "08:00", "endTime": "18:00", "hoursWorked": 10, "clientName": "James Park" }
+      ]
+    },
+    {
+      "id": "CG-003",
+      "name": "Emily Watson",
+      "weeklyHours": 36,
+      "consecutiveLongShifts": 0,
+      "minRestGapHours": 11,
+      "shifts": [
+        { "date": "2026-03-01", "startTime": "09:00", "endTime": "17:00", "hoursWorked": 8, "clientName": "Ana Martinez" }
+      ]
+    },
+    {
+      "id": "CG-004",
+      "name": "Michael Torres",
+      "weeklyHours": 52,
+      "consecutiveLongShifts": 3,
+      "minRestGapHours": 6.5,
+      "shifts": [
+        { "date": "2026-03-01", "startTime": "06:00", "endTime": "18:00", "hoursWorked": 12, "clientName": "James Park" },
+        { "date": "2026-03-02", "startTime": "06:00", "endTime": "17:30", "hoursWorked": 11.5, "clientName": "Robert Garcia" }
+      ]
+    },
+    {
+      "id": "CG-005",
+      "name": "Rachel Kim",
+      "weeklyHours": 32,
+      "consecutiveLongShifts": 0,
+      "minRestGapHours": 14,
+      "shifts": [
+        { "date": "2026-03-01", "startTime": "08:00", "endTime": "16:00", "hoursWorked": 8, "clientName": "Robert Garcia" }
+      ]
+    }
+  ]

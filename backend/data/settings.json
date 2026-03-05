@@ -1,0 +1,6 @@
+{
+    "weeklyHoursThreshold": 48,
+    "restGapHoursThreshold": 8,
+    "workflowTimeoutMinutes": 30,
+    "consecutiveShiftThreshold": 3
+  }

@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "weeklyHoursThreshold": 48,
+    "restGapHoursThreshold": 8,
+    "workflowTimeoutMinutes": 30,
+    "consecutiveShiftThreshold": 3
+  },
+
+  "alertOverrides": {},
+
+  "auth": {
+    "org": "heylo.tech",
+
+    "allowedDomains": [
+      "heylo.tech"
+    ],
+
+    "allowedEmails": [
+      "chris@heylo.tech",
+      "maheksota56@gmail.com"
+    ],
+
+    "admins": [
+      "chris@heylo.tech"
+    ]
+  }
+}
