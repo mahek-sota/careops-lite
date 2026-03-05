@@ -29,7 +29,7 @@ CareOps Lite gives supervisors a single place to monitor caregiver burnout risk 
 
 | Login | Alerts | Burnout Risk | Workflow Detail | Settings |
 |------|------|------|------|------|
-| <img src="assets/login.png" width="200"> | <img src="assets/alerts.png" width="200"> | <img src="assets/burnout-monitor.png" width="200"> | <img src="assets/workflow-detail.png" width="200"> | <img src="assets/settings.png" width="200"> |
+| <img src="assets/login.png" width="200"> | <img src="assets/alerts.png" width="200"> | <img src="assets/burnout-monitor.png" width="200"> | <img src="assets/workflow-debug.png" width="200"> | <img src="assets/settings.png" width="200"> |
 
 ---
 
