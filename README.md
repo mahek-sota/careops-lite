@@ -331,12 +331,6 @@ Changing a threshold and switching tabs shows the updated values immediately —
 
 ---
 
-## License
-
-MIT — see [LICENSE](LICENSE) for details.
-
----
-
 ## Author
 
-Built by [Mahek Sota](https://github.com/maheksota56)
+Built by [Mahek Sota](https://github.com/maheksota56) | [LinkedIn](https://www.linkedin.com/in/mahek-sota/) 
