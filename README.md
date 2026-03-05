@@ -127,14 +127,26 @@ npm install
 
 Create `backend/.env`:
 
-```env
+| Variable | Description | Example |
+|---|---|---|
 | `PORT` | Port for Express server | `4000` |
-| `SESSION_SECRET` | Secret for signing session cookies | any random string |
+| `SESSION_SECRET` | Secret for signing session cookies | `any-random-string` |
 | `GOOGLE_CLIENT_ID` | From Google Cloud Console | `123...apps.googleusercontent.com` |
 | `GOOGLE_CLIENT_SECRET` | From Google Cloud Console | `GOCSPX-...` |
 | `GOOGLE_REDIRECT_URI` | OAuth callback URL | `http://localhost:4000/auth/google/callback` |
 | `FRONTEND_URL` | Frontend origin for CORS | `http://localhost:5173` |
 | `BACKEND_URL` | Backend origin for OAuth callback | `http://localhost:4000` |
+
+Example `.env` file:
+
+```env
+PORT=4000
+SESSION_SECRET=any-random-string
+GOOGLE_CLIENT_ID=123...apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=GOCSPX-...
+GOOGLE_REDIRECT_URI=http://localhost:4000/auth/google/callback
+FRONTEND_URL=http://localhost:5173
+BACKEND_URL=http://localhost:4000
 ```
 
 Start the backend:
